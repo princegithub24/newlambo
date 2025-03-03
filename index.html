@@ -44,30 +44,31 @@
             </svg></a>
         </nav>
 
-        <section class="relative w-full h-screen mt-2 overflow-hidden z-0">
+        <section class="relative w-full h-screen mt-4 overflow-hidden z-0">
             <!-- Video with scaling adjustments -->
-            <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover">
-                <source src="./src/video/v2.mp4" type="video/mp4">
+            <video autoplay loop muted playsinline class="absolute top-0 left-0 w-full h-full object-cover ">
+                <source src="./src/video/v3.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
-            <div class="absolute inset-0 bg-black opacity-40"></div> <!-- Optional overlay for contrast -->
-        
-            <div class="absolute inset-0 flex flex-col items-center justify-center sm:justify-start text-white text-center p-4 md:p-8">
+            <div class="absolute inset-0 bg-gradient-to-t from-black opacity-50"></div> <!-- Improved overlay for contrast -->
+            
+            <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4  md:p-16">
                 <!-- Title with responsive font size -->
-                <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight">
+                <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold leading-snug sm:leading-relaxed">
                     Unleash the Future
                 </h1>
                 <!-- Description with responsive font size and max-width for better readability -->
-                <p class="mt-2 text-base sm:text-lg md:text-xl max-w-lg sm:max-w-xl md:max-w-2xl">
+                <p class="mt-4 text-base sm:text-lg md:text-xl max-w-lg sm:max-w-xl md:max-w-2xl leading-relaxed">
                     Experience the next generation of performance and luxury.
                 </p>
             </div>
         </section>
         
+        
 
 
         <!-- Bottom Disclaimer Section -->
-    <section class="fixed bottom-0 left-0 w-full bg-black text-white py-4 px-4 md:px-16 text-sm z-50">
+    <section class="fixed bottom-0 left-0 w-full bg-black text-white py-4 px-4 text-xs  md:px-16 sm:text-sm z-50">
         <p>
         Consumption and emission values of all vehicles promoted on this page*:
         Combined fuel consumption: 19.5-11.86 l/100km; Combined power consumption: 10.1 kWh/100 Km;
@@ -89,10 +90,10 @@
                 <div id="blurredImages" class="absolute w-full h-full"></div>
             </div>
             <div id="sliderText" class="relative text-center z-10">
-                <h1 class="text-4xl md:text-6xl font-bold">TEMERARIO</h1>
-                <p class="mt-4 text-lg md:text-xl max-w-md">YOU CAN'T HIDE WHO YOU ARE</p>
+                <h1 class="text-xs md:text-6xl font-bold">TEMERARIO</h1>
+                <p class="mt-2 text-xs md:text-xl max-w-md">YOU CAN'T HIDE WHO YOU ARE</p>
             </div>
-            <div class="relative z-10 mt-6 flex space-x-4">
+            <div class="relative z-10  flex space-x-4">
                 <button id="prevBtn" class="bg-white bg-opacity-20 text-black p-3 rounded-full text-2xl hover:bg-opacity-40 transition">
                     &#10094;
                 </button>
@@ -248,7 +249,7 @@
         </div>
     </div>
         
-    <footer class="  bg-black text-white py-10 px-4 md:px-16 mt-24 mb-22">
+    <footer class="  bg-black text-white  py-10 px-4 md:px-16 mt-24 ">
         <div class="max-w-7xl mx-auto">
             <!-- Top Section: Links and Socials -->
             <div class="flex flex-col md:flex-row justify-between gap-8">
